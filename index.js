@@ -1,8 +1,8 @@
 var express = require('express');
 var cors = require('cors');
 require('dotenv').config()
-const multer = require('multer')
-const upload = multer()
+var multer = require('multer')
+var upload = multer()
 
 var app = express();
 
